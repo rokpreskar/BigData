@@ -91,7 +91,7 @@ elif page == "Testimonials":
 else:
     st.header("📈 2023 Reviews Analysis")
     st.write("Filter reviews by specific months within the year 2023.")
-    st.info("💡 Sentiment analysis was pre-computed offline using DistilBERT transformers. No heavy models loaded here!")
+    st.info("💡 Sentiment analysis was precomputed locally to improve performance when deploying on a free hosting plan.!")
 
     months = [
         "January", "February", "March", "April", "May", "June",
