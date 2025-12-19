@@ -6,6 +6,10 @@ import altair as alt
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import re
+import os
+
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["MPLCONFIGDIR"] = "/tmp/matplotlib"
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
@@ -28,11 +32,22 @@ def load_scraped_data():
 # --- SENTIMENT MODEL (HUGGING FACE) ---
 @st.cache_resource
 def get_sentiment_pipeline():
-    """Load HF sentiment pipeline once per app session."""
     return pipeline(
         "sentiment-analysis",
-        model="distilbert-base-uncased-finetuned-sst-2-english"
+        model="distilbert-base-uncased-finetuned-sst-2-english",
+        device=-1  # force CPU
     )
+
+@st.cache_data
+def run_sentiment(texts_tuple):
+    sentiment_pipe = get_sentiment_pipeline()
+    return sentiment_pipe(
+        list(texts_tuple),
+        batch_size=8,
+        truncation=True,
+        max_length=128,   # ✅ reduces RAM + speed
+    )
+
 
 data = load_scraped_data()
 
@@ -144,11 +159,10 @@ if data:
                         st.dataframe(show_df, width="stretch")
                     else:
                         try:
-                            sentiment_pipe = get_sentiment_pipeline()
                             texts = filtered_df["text"].fillna("").astype(str).str.strip().tolist()
 
                             with st.spinner("Running sentiment analysis..."):
-                                results = sentiment_pipe(texts, batch_size=32, truncation=True)
+                                results = run_sentiment(tuple(texts))
 
                             show_df["sentiment"] = [
                                 "Positive" if r["label"] == "POSITIVE" else "Negative"
@@ -216,14 +230,15 @@ if data:
                                 st.info("Not enough text to generate a word cloud.")
                             else:
                                 wc = WordCloud(
-                                    width=1200,
-                                    height=500,
+                                    width=700,
+                                    height=350,
+                                    max_words=100,          # ✅ less memory
                                     background_color="white",
                                     stopwords=set(STOPWORDS),
                                     collocations=False
                                 ).generate(text_blob)
 
-                                fig, ax = plt.subplots(figsize=(12, 5))
+                                fig, ax = plt.subplots(figsize=(10, 4))
                                 ax.imshow(wc)
                                 ax.axis("off")
                                 st.pyplot(fig)
@@ -237,6 +252,7 @@ if data:
 
                         except Exception as e:
                             st.exception(e)
+                            st.stop()
 
 # --- FOOTER ---
 st.sidebar.markdown("---")
