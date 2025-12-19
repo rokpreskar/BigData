@@ -3,6 +3,9 @@ import pandas as pd
 import json
 from transformers import pipeline
 import altair as alt
+from wordcloud import WordCloud, STOPWORDS
+import matplotlib.pyplot as plt
+import re
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
@@ -61,7 +64,7 @@ if data:
             else:
                 col2.metric("Avg. Price", "N/A")
 
-            st.dataframe(df_products, use_container_width=True)
+            st.dataframe(df_products, width="stretch")
 
     # ---------------------------
     # 2) TESTIMONIALS
@@ -75,7 +78,7 @@ if data:
         if df_testimonials.empty:
             st.warning("No testimonials found in scraped data.")
         else:
-            st.dataframe(df_testimonials, use_container_width=True)
+            st.dataframe(df_testimonials, width="stretch")
 
             if "rating" in df_testimonials.columns:
                 st.subheader("Rating Distribution")
@@ -138,7 +141,7 @@ if data:
                     st.subheader("Sentiment Analysis (Hugging Face Transformers)")
                     if "text" not in filtered_df.columns:
                         st.error("Reviews data has no 'text' column, cannot run sentiment analysis.")
-                        st.dataframe(show_df, use_container_width=True)
+                        st.dataframe(show_df, width="stretch")
                     else:
                         try:
                             sentiment_pipe = get_sentiment_pipeline()
@@ -196,11 +199,41 @@ if data:
                                 text=alt.Text("avg_conf:Q", format=".2f"),
                             )
 
-                            st.altair_chart(chart + text_layer, use_container_width=True)
+                            st.altair_chart(chart + text_layer, width="stretch")
+
+                            # ---------------- Word Cloud (BONUS) ----------------
+                            st.subheader("Word Cloud (Selected Month Reviews)")
+
+                            text_blob = " ".join(show_df["text"].astype(str)).lower()
+
+                            # Clean text
+                            text_blob = re.sub(r"http\S+|www\S+", "", text_blob)
+                            text_blob = re.sub(r"[^\w\s]", " ", text_blob, flags=re.UNICODE)
+                            text_blob = re.sub(r"[\d_]+", " ", text_blob)
+                            text_blob = re.sub(r"\s+", " ", text_blob).strip()
+
+                            if len(text_blob) < 20:
+                                st.info("Not enough text to generate a word cloud.")
+                            else:
+                                wc = WordCloud(
+                                    width=1200,
+                                    height=500,
+                                    background_color="white",
+                                    stopwords=set(STOPWORDS),
+                                    collocations=False
+                                ).generate(text_blob)
+
+                                fig, ax = plt.subplots(figsize=(12, 5))
+                                ax.imshow(wc)
+                                ax.axis("off")
+                                st.pyplot(fig)
+
+                            # ---------------------------------------------------
+
 
                             # Show table last (so chart is visible without scrolling)
                             st.subheader("Reviews Table (with Sentiment)")
-                            st.dataframe(show_df, use_container_width=True)
+                            st.dataframe(show_df, width="stretch")
 
                         except Exception as e:
                             st.exception(e)

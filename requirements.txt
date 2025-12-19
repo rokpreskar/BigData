@@ -5,3 +5,5 @@ transformers>=4.40
 torch
 numpy
 pyarrow
+wordcloud
+matplotlib
