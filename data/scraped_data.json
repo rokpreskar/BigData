@@ -1,0 +1,723 @@
+{
+    "products": [
+        {
+            "name": "Box of Chocolate Candy",
+            "description": "Indulge your sweet tooth with our Box of Chocolate Candy. Each box contains an assortment of rich, flavorful chocolates with a smooth, creamy filling. Choose from a variety of flavors including zesty orange and sweet cherry. Whether you're looking for the perfect gift or just want to treat yourself, our Box of Chocolate Candy is sure to satisfy.",
+            "price": "24.99"
+        },
+        {
+            "name": "Dark Red Energy Potion",
+            "description": "Unleash the power within with our 'Dark Red Potion', an energy drink as intense as the games you play. Its deep red color and bold cherry cola flavor are as inviting as they are invigorating. Bring out the best in your gaming performance, and unlock your full potential.",
+            "price": "4.99"
+        },
+        {
+            "name": "Teal Energy Potion",
+            "description": "Experience a surge of vitality with our 'Teal Potion', an exceptional energy drink designed for the gaming community. With its intriguing teal color and a flavor that keeps you asking for more, this potion is your best companion during those long gaming nights. Every sip is an adventure - let the quest begin!",
+            "price": "4.99"
+        },
+        {
+            "name": "Red Energy Potion",
+            "description": "Elevate your game with our 'Red Potion', an extraordinary energy drink that's as enticing as it is effective. This fiery red potion delivers an explosive berry flavor and an energy kick that keeps you at the top of your game. Are you ready to level up?",
+            "price": "4.99"
+        },
+        {
+            "name": "Blue Energy Potion",
+            "description": "Ignite your gaming sessions with our 'Blue Energy Potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized. It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Drink up and game on!",
+            "price": "4.99"
+        },
+        {
+            "name": "Dragon Energy Potion",
+            "description": "Fuel your gaming prowess with our 'Dragon Potion', an energy drink for those who dare to take on the greatest challenges. Packed with a fiery tropical flavor and a potent energy blend, this potion sets the stage for epic gaming sessions. Embrace the spirit of the dragon - play hard, play long.",
+            "price": "4.99"
+        },
+        {
+            "name": "Hiking Boots for Outdoor Adventures",
+            "description": "Gear up for your next outdoor adventure with these durable and comfortable hiking boots. These boots are designed to handle all types of terrain, from rocky trails to muddy paths. They feature a waterproof upper, a rugged outsole for excellent traction, and a cushioned insole for maximum comfort. The mixed-color design adds a stylish touch to these practical boots. Get ready to conquer the great outdoors with our Hiking Boots for Outdoor Adventures.",
+            "price": "89.99"
+        },
+        {
+            "name": "Women's High Heel Sandals",
+            "description": "Step out in style with our Women's High Heel Sandals. These sandals feature a strappy design that adds a touch of elegance to any outfit. The comfortable footbed and sturdy heel make them perfect for a night out, while the buckle closure ensures a secure fit. Choose from black, red, nude, or silver to complement your wardrobe.",
+            "price": "59.99"
+        },
+        {
+            "name": "Running Shoes for Men",
+            "description": "Stay comfortable during your runs with our Men's Running Shoes. Featuring a breathable upper and a cushioned midsole, these shoes provide excellent ventilation and shock absorption. The durable outsole offers solid traction, ensuring stability even on slippery surfaces. With a sleek design and various color options, you can hit the road or the treadmill in style.",
+            "price": "49.99"
+        },
+        {
+            "name": "Kids' Light-Up Sneakers",
+            "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful LED lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. Let your little one's personality shine with these exciting and playful shoes.",
+            "price": "29.99"
+        },
+        {
+            "name": "Classic Leather Sneakers",
+            "description": "Step out in style with these timeless classic leather sneakers. Made from premium genuine leather, these sneakers offer both comfort and durability. The sleek design and neutral color make them versatile for any occasion. Whether you're dressing up for a formal event or going for a casual outing, these sneakers will complement your look perfectly.",
+            "price": "79.99"
+        },
+        {
+            "name": "Cat-Ear Beanie",
+            "description": "Add a touch of whimsy to your winter wardrobe with our Cat Ear Beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks. Stay warm, look cute, and let your playful side shine with our Cat Ear Beanie.",
+            "price": "14.99"
+        },
+        {
+            "name": "Box of Chocolate Candy",
+            "description": "Indulge your sweet tooth with our Box of Chocolate Candy. Each box contains an assortment of rich, flavorful chocolates with a smooth, creamy filling. Choose from a variety of flavors including zesty orange and sweet cherry. Whether you're looking for the perfect gift or just want to treat yourself, our Box of Chocolate Candy is sure to satisfy.",
+            "price": "24.99"
+        },
+        {
+            "name": "Dark Red Energy Potion",
+            "description": "Unleash the power within with our 'Dark Red Potion', an energy drink as intense as the games you play. Its deep red color and bold cherry cola flavor are as inviting as they are invigorating. Bring out the best in your gaming performance, and unlock your full potential.",
+            "price": "4.99"
+        },
+        {
+            "name": "Teal Energy Potion",
+            "description": "Experience a surge of vitality with our 'Teal Potion', an exceptional energy drink designed for the gaming community. With its intriguing teal color and a flavor that keeps you asking for more, this potion is your best companion during those long gaming nights. Every sip is an adventure - let the quest begin!",
+            "price": "4.99"
+        }
+    ],
+    "testimonials": [
+        {
+            "text": "We've been using this utility for years - awesome service!",
+            "rating": 5
+        },
+        {
+            "text": "This Python app simplified my workflow significantly. Highly recommended.",
+            "rating": 5
+        },
+        {
+            "text": "Had a few issues at first, but their support team is top-notch!",
+            "rating": 4
+        },
+        {
+            "text": "A fantastic tool - it has everything you need and more.",
+            "rating": 5
+        },
+        {
+            "text": "The interface could be a little more user-friendly.",
+            "rating": 5
+        },
+        {
+            "text": "Been a fan of this app since day one. It just keeps getting better!",
+            "rating": 5
+        },
+        {
+            "text": "The recent updates really improved the overall experience.",
+            "rating": 4
+        },
+        {
+            "text": "A decent web app. There's room for improvement though.",
+            "rating": 3
+        },
+        {
+            "text": "The app is reliable and efficient. I can't imagine my day without it now.",
+            "rating": 5
+        },
+        {
+            "text": "Encountered some bugs. Hope they fix it soon.",
+            "rating": 1
+        },
+        {
+            "text": "This web app is a game-changer! I've boosted my productivity.",
+            "rating": 5
+        },
+        {
+            "text": "The features are great but it took me a while to understand how to use them.",
+            "rating": 4
+        },
+        {
+            "text": "Love the simplicity and effectiveness of this app.",
+            "rating": 4
+        },
+        {
+            "text": "It's an okay tool, but I've used better.",
+            "rating": 5
+        },
+        {
+            "text": "Fantastic app! It's made my job so much easier.",
+            "rating": 5
+        },
+        {
+            "text": "The learning curve is steep, but it's worth it.",
+            "rating": 5
+        },
+        {
+            "text": "Great concept but needs more work on the execution.",
+            "rating": 5
+        },
+        {
+            "text": "This app is innovative and has a lot of potentials. Keep it up!",
+            "rating": 4
+        },
+        {
+            "text": "It's a solid tool, but there are some minor issues.",
+            "rating": 5
+        },
+        {
+            "text": "A great app that delivers on its promises. Very impressed.",
+            "rating": 5
+        },
+        {
+            "text": "I'm blown away by the features and functionality. Incredible app!",
+            "rating": 5
+        },
+        {
+            "text": "I'm not satisfied with the app's performance. Disappointing.",
+            "rating": 1
+        },
+        {
+            "text": "The customer support team went above and beyond to help me. Excellent service!",
+            "rating": 5
+        },
+        {
+            "text": "The app crashes frequently, making it unreliable for my needs.",
+            "rating": 5
+        },
+        {
+            "text": "I've recommended this app to all my colleagues. It's a game-changer!",
+            "rating": 5
+        },
+        {
+            "text": "The user interface is intuitive and well-designed. Easy to navigate.",
+            "rating": 5
+        },
+        {
+            "text": "I expected more from this app. It didn't meet my expectations.",
+            "rating": 5
+        },
+        {
+            "text": "The app's performance has improved significantly with the latest update.",
+            "rating": 4
+        },
+        {
+            "text": "This app has saved me so much time and effort. Highly efficient!",
+            "rating": 5
+        },
+        {
+            "text": "There are some minor bugs, but overall, a solid app.",
+            "rating": 4
+        },
+        {
+            "text": "I've tried many similar apps, but this one stands out. Impressive!",
+            "rating": 4
+        },
+        {
+            "text": "The app's user interface could use some improvements. It feels outdated.",
+            "rating": 5
+        },
+        {
+            "text": "I'm extremely satisfied with the app's performance. Works like a charm!",
+            "rating": 5
+        },
+        {
+            "text": "The app's documentation is comprehensive and easy to follow.",
+            "rating": 4
+        },
+        {
+            "text": "I'm disappointed with the lack of updates and new features.",
+            "rating": 3
+        },
+        {
+            "text": "This app has become an essential part of my workflow. Highly recommended!",
+            "rating": 5
+        },
+        {
+            "text": "The app is slow and unresponsive at times. Needs optimization.",
+            "rating": 2
+        },
+        {
+            "text": "I love the clean and modern design of the app. Pleasing to the eye.",
+            "rating": 5
+        },
+        {
+            "text": "I've encountered several bugs that hindered my productivity.",
+            "rating": 2
+        },
+        {
+            "text": "This app has become an indispensable tool for me. Great job!",
+            "rating": 5
+        },
+        {
+            "text": "The app's user interface is cluttered and confusing. Difficult to navigate.",
+            "rating": 2
+        },
+        {
+            "text": "I've been using this app for a while now, and it has become an essential part of my daily routine. Highly recommended!",
+            "rating": 5
+        },
+        {
+            "text": "The customer support team was unresponsive and unhelpful. Disappointing experience.",
+            "rating": 1
+        },
+        {
+            "text": "This app has revolutionized the way I work. It's efficient and user-friendly.",
+            "rating": 5
+        },
+        {
+            "text": "The app's performance is inconsistent. It works well sometimes, but other times it's slow and unresponsive.",
+            "rating": 3
+        },
+        {
+            "text": "I'm impressed by the frequent updates and new features added to the app. It keeps getting better!",
+            "rating": 5
+        },
+        {
+            "text": "I had high hopes for this app, but it failed to meet my expectations. It lacks important features.",
+            "rating": 2
+        },
+        {
+            "text": "The app's interface is intuitive and easy to navigate. I didn't face any issues while using it.",
+            "rating": 5
+        },
+        {
+            "text": "This app is a must-have for anyone in the industry. It streamlines processes and saves time.",
+            "rating": 5
+        },
+        {
+            "text": "I encountered a critical bug that caused data loss. It was a frustrating experience.",
+            "rating": 1
+        },
+        {
+            "text": "The app's design is visually appealing, and the user experience is excellent.",
+            "rating": 5
+        },
+        {
+            "text": "The app's functionality is limited. It needs more features to be truly useful.",
+            "rating": 2
+        },
+        {
+            "text": "I've had a positive experience using this app. It has improved my productivity significantly.",
+            "rating": 4
+        },
+        {
+            "text": "The app crashes frequently, making it unreliable for daily use.",
+            "rating": 2
+        },
+        {
+            "text": "The app's customer support team was prompt and helpful in resolving my issues. Great service!",
+            "rating": 5
+        },
+        {
+            "text": "I've tried many similar apps, but this one stands out with its exceptional performance and features.",
+            "rating": 5
+        },
+        {
+            "text": "The app's user interface is outdated and not intuitive. It needs a modern redesign.",
+            "rating": 2
+        },
+        {
+            "text": "I'm extremely satisfied with this app. It has exceeded my expectations in every way.",
+            "rating": 5
+        },
+        {
+            "text": "The app's documentation is comprehensive and easy to follow, making it easy to get started.",
+            "rating": 5
+        },
+        {
+            "text": "The app's performance has been flawless. I haven't experienced any issues or slowdowns.",
+            "rating": 5
+        }
+    ],
+    "reviews": [
+        {
+            "date": "2023-05-18",
+            "text": "Unique flavor and great energy boost. It's the perfect gamer's drink!",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-17",
+            "text": "Good flavor and keeps me energized. The bottle design is really fun.",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-16",
+            "text": "Excellent energy drink for gamers. The tropical flavor is refreshing.",
+            "rating": 4
+        },
+        {
+            "date": "2023-05-15",
+            "text": "It\u2019s fun, tastes good, and the energy boost is helpful during intense gaming sessions.",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-15",
+            "text": "The best sneakers I've bought in a long time. Stylish, comfortable and the leather quality is top-notch.",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-12",
+            "text": "The cherry cola flavor is a win. Keeps me energized and focused.",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-10",
+            "text": "These shoes are a hit with my twins. They love the lights and they seem to be quite durable.",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-01",
+            "text": "Excellent boots for outdoor adventures. They offer great support and are very comfortable.",
+            "rating": 5
+        },
+        {
+            "date": "2023-05-01",
+            "text": "Nice design and good quality, but a bit too tight for me. Otherwise, it's a pretty cool beanie.",
+            "rating": 4
+        },
+        {
+            "date": "2023-04-25",
+            "text": "Really enjoyed the citrus flavor and the energy boost it gives.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-25",
+            "text": "Great concept, but the sizing is a bit off. Order a size larger.",
+            "rating": 3
+        },
+        {
+            "date": "2023-04-18",
+            "text": "Delicious chocolates, and the box is pretty substantial. It'd make a nice gift.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-12",
+            "text": "The boots are durable, but the laces could be better quality.",
+            "rating": 4
+        },
+        {
+            "date": "2023-04-11",
+            "text": "This potion is a game changer. Love the energy boost and the flavor.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-10",
+            "text": "Light, comfortable, and nice design. I'm buying another pair.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-10",
+            "text": "Highly recommend! These shoes are great for evening walks. Kids love them!",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-09",
+            "text": "It's like a health potion for gamers! The energy boost is spot on.",
+            "rating": 4
+        },
+        {
+            "date": "2023-04-07",
+            "text": "Really helps me focus during intense gaming marathons. The teal color is a nice touch.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-07",
+            "text": "The shoes are nice but they didn't fit me well. I had to exchange for a larger size.",
+            "rating": 3
+        },
+        {
+            "date": "2023-04-05",
+            "text": "Great taste, and the energy kick is awesome. Feels just like a strength potion.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-05",
+            "text": "Exceptional beanie! I wear it every time I go out in cold weather. The material is comfortable and durable. Highly recommend it.",
+            "rating": 5
+        },
+        {
+            "date": "2023-04-01",
+            "text": "Great taste and doesn't give me a crash afterwards.",
+            "rating": 4
+        },
+        {
+            "date": "2023-03-25",
+            "text": "Good quality and fit, but the color is a bit off from the picture. Still, they're pretty.",
+            "rating": 4
+        },
+        {
+            "date": "2023-03-25",
+            "text": "The beanie is cute, but the cat ears were a bit floppy. Overall, I like it and wear it regularly.",
+            "rating": 3
+        },
+        {
+            "date": "2023-03-24",
+            "text": "Good quality and comfortable, but a bit pricey.",
+            "rating": 4
+        },
+        {
+            "date": "2023-03-20",
+            "text": "The orange flavor wasn't my favorite, but the cherry ones are great.",
+            "rating": 4
+        },
+        {
+            "date": "2023-03-20",
+            "text": "Not only does it look cool, but it tastes great and gives a good energy boost!",
+            "rating": 5
+        },
+        {
+            "date": "2023-03-15",
+            "text": "Just what I need for long gaming sessions. Great flavor and energy boost.",
+            "rating": 5
+        },
+        {
+            "date": "2023-03-14",
+            "text": "Definitely helped me stay focused during my long gaming nights. Plus, the bottle design is pretty cool.",
+            "rating": 5
+        },
+        {
+            "date": "2023-03-14",
+            "text": "I love how it gives me the energy I need for my gaming sessions. Plus, no sugar crash.",
+            "rating": 4
+        },
+        {
+            "date": "2023-03-10",
+            "text": "Finally, an energy drink for gamers! It's just like a mana potion.",
+            "rating": 5
+        },
+        {
+            "date": "2023-03-10",
+            "text": "I'm not really a cat person, but I like the quality and comfort of this beanie. My friend recommended it, and I'm glad I bought it.",
+            "rating": 4
+        },
+        {
+            "date": "2023-03-05",
+            "text": "They're a good pair of running shoes for the price. They're not the best I've had, but they do the job.",
+            "rating": 3
+        },
+        {
+            "date": "2023-03-05",
+            "text": "The sneakers are fun and eye-catching, but my pair arrived with one shoe not lighting up.",
+            "rating": 2
+        },
+        {
+            "date": "2023-03-01",
+            "text": "Very comfortable and the leather feels premium. Would recommend to anyone looking for classic sneakers.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-25",
+            "text": "Great sneakers, but the white ones get dirty easily. Otherwise, they're perfect.",
+            "rating": 4
+        },
+        {
+            "date": "2023-02-22",
+            "text": "Love these boots. They're rugged and comfortable, perfect for outdoor activities.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-20",
+            "text": "Perfect for long gaming nights. Love the taste and the cool bottle design.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-20",
+            "text": "Comfortable, good fit, and the grip is excellent. Happy with my purchase.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-20",
+            "text": "Good quality and the lights are a nice touch. My kid wears them all the time.",
+            "rating": 4
+        },
+        {
+            "date": "2023-02-18",
+            "text": "The tropical flavor is really good, and the energy kick is powerful.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-17",
+            "text": "Stunning and comfortable. I wore them to a wedding and got so many compliments.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-15",
+            "text": "The box is nicely packaged, making it a great gift option.",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-15",
+            "text": "It's quite nice but a little snug on my head. Maybe it's just my head size. But I love the design!",
+            "rating": 3
+        },
+        {
+            "date": "2023-02-12",
+            "text": "The cherry cola flavor is very appealing. Provides a good energy boost for gaming!",
+            "rating": 4
+        },
+        {
+            "date": "2023-02-12",
+            "text": "The mint and citrus blend is very refreshing. And the bottle design is great too!",
+            "rating": 5
+        },
+        {
+            "date": "2023-02-10",
+            "text": "The berry flavor is intense and delicious. Great for keeping me focused during my gaming sessions.",
+            "rating": 5
+        },
+        {
+            "date": "2023-01-24",
+            "text": "These chocolates are so tasty! Love the variety of flavors.",
+            "rating": 5
+        },
+        {
+            "date": "2023-01-23",
+            "text": "Nice sandals, but they run a bit small. I recommend ordering a size up.",
+            "rating": 4
+        },
+        {
+            "date": "2023-01-15",
+            "text": "The design is just epic! And the energy boost is real.",
+            "rating": 4
+        },
+        {
+            "date": "2023-01-15",
+            "text": "Really like the design and they're great for running. They're also easy to clean.",
+            "rating": 4
+        },
+        {
+            "date": "2023-01-15",
+            "text": "These sneakers are worth every penny! They're durable and my kid loves them!",
+            "rating": 5
+        },
+        {
+            "date": "2023-01-13",
+            "text": "These are decent boots for hiking, but they took a while to break in.",
+            "rating": 3
+        },
+        {
+            "date": "2023-01-10",
+            "text": "Impressive build quality and comfort. However, I wish they were a bit cheaper.",
+            "rating": 4
+        },
+        {
+            "date": "2023-01-10",
+            "text": "A must-have for cat lovers. It's adorable and keeps me warm during chilly weather.",
+            "rating": 4
+        },
+        {
+            "date": "2022-12-25",
+            "text": "I bought this for my daughter, and she adores it! It's become her favorite winter accessory.",
+            "rating": 5
+        },
+        {
+            "date": "2022-12-18",
+            "text": "Bought the large box, and it's lasted quite a while. Great for when you need a sweet treat.",
+            "rating": 5
+        },
+        {
+            "date": "2022-12-18",
+            "text": "These sandals are a must-have! They look amazing and feel great.",
+            "rating": 5
+        },
+        {
+            "date": "2022-12-07",
+            "text": "Great traction and support. My feet stayed dry even in wet conditions.",
+            "rating": 5
+        },
+        {
+            "date": "2022-11-25",
+            "text": "Shoes are okay, but the cushioning could be better.",
+            "rating": 3
+        },
+        {
+            "date": "2022-11-25",
+            "text": "The shoes are great but the battery life for the lights could be better.",
+            "rating": 3
+        },
+        {
+            "date": "2022-11-20",
+            "text": "Beautiful shoes, but not very comfortable. Good for short-term wear.",
+            "rating": 3
+        },
+        {
+            "date": "2022-11-20",
+            "text": "Was looking for a good pair of white sneakers and these fit the bill. Excellent quality and design.",
+            "rating": 5
+        },
+        {
+            "date": "2022-11-10",
+            "text": "These boots are perfect for hiking. They're comfortable and provide excellent support.",
+            "rating": 5
+        },
+        {
+            "date": "2022-11-05",
+            "text": "A bit pricey, but the quality of the chocolate is worth it.",
+            "rating": 4
+        },
+        {
+            "date": "2022-10-19",
+            "text": "Great boots! The size was perfect, and they're very comfortable.",
+            "rating": 5
+        },
+        {
+            "date": "2022-10-14",
+            "text": "Great quality for the price. The buckle closure is secure, and the heel feels sturdy.",
+            "rating": 4
+        },
+        {
+            "date": "2022-10-05",
+            "text": "Good shoes, but they run a little small. I'd recommend ordering a half size up.",
+            "rating": 4
+        },
+        {
+            "date": "2022-10-05",
+            "text": "Nice design and the lights are bright. However, they run a bit small. Order a size up.",
+            "rating": 4
+        },
+        {
+            "date": "2022-10-05",
+            "text": "Great beanie, but I wish there were more colors available. The cat ears design is really nice.",
+            "rating": 3
+        },
+        {
+            "date": "2022-10-02",
+            "text": "The cherry flavor is amazing. Will be buying more.",
+            "rating": 5
+        },
+        {
+            "date": "2022-09-28",
+            "text": "These boots are durable and comfortable, but they're a bit heavy.",
+            "rating": 4
+        },
+        {
+            "date": "2022-09-27",
+            "text": "The sandals are pretty, but the heel is higher than I expected.",
+            "rating": 3
+        },
+        {
+            "date": "2022-09-20",
+            "text": "A cozy and unique beanie. Received a lot of compliments. Plus, it's cat-themed, so that's a win for me!",
+            "rating": 4
+        },
+        {
+            "date": "2022-09-15",
+            "text": "Best running shoes I've had in a while. They're really comfortable, even on long runs.",
+            "rating": 5
+        },
+        {
+            "date": "2022-09-15",
+            "text": "Comfortable and fun! My child loves showing off the light-up feature to friends.",
+            "rating": 4
+        },
+        {
+            "date": "2022-09-12",
+            "text": "They're nice shoes but they felt a little tight at first. They loosened up after a few days though.",
+            "rating": 3
+        },
+        {
+            "date": "2022-09-10",
+            "text": "Nice variety of flavors. The chocolate is rich and smooth.",
+            "rating": 5
+        },
+        {
+            "date": "2022-08-16",
+            "text": "I bought these as a gift, and they were well received. Will definitely purchase again.",
+            "rating": 4
+        },
+        {
+            "date": "2022-08-15",
+            "text": "Good quality boots. They keep my feet dry and comfortable during long hikes.",
+            "rating": 4
+        }
+    ]
+}

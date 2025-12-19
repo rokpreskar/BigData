@@ -1,0 +1,7 @@
+streamlit==1.52.2
+pandas
+altair
+transformers>=4.40
+torch
+numpy
+pyarrow
