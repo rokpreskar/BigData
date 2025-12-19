@@ -1,7 +1,6 @@
 streamlit
 pandas
 altair
-transformers
-torch
 wordcloud
 matplotlib
+Pillow
