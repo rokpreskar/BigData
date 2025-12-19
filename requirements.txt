@@ -1,7 +1,7 @@
-streamlit==1.28.0
-pandas==2.0.3
-altair==5.1.2
-transformers==4.35.0
-torch==2.1.0
-wordcloud==1.9.2
-matplotlib==3.7.3
+streamlit
+pandas
+altair
+transformers
+torch
+wordcloud
+matplotlib
